@@ -8,3 +8,9 @@ openwisp-controller @ https://github.com/openwisp/openwisp-controller/tarball/ma
 openwisp-utils[qa,selenium] @ https://github.com/openwisp/openwisp-utils/tarball/master
 redis~=4.5.4
 django_redis~=5.2.0
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+twisted>=23.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
