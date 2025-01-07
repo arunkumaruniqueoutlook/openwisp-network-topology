@@ -3,3 +3,4 @@ netdiff @ https://github.com/openwisp/netdiff/tarball/master
 jsonfield~=3.1.0
 django-flat-json-widget @ https://github.com/openwisp/django-flat-json-widget/tarball/master
 openwisp-utils[celery] @ https://github.com/openwisp/openwisp-utils/tarball/master
+django-allauth>=65.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
